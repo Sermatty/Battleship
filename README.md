@@ -26,3 +26,5 @@ make
 - [x] Struttura progetto su diversi file
 - [ ] Supporto macOS
 - [ ] Logica di base per entrambe le modalità
+- [ ] Classe separata per entity Pc e Player (unique_ptr)
+- [ ] Includere Schermata Game-Over e Pause

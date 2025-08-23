@@ -4,26 +4,20 @@
 class Stampa{
 private:
     void StampaSchermoCaricamento(const char *schermata[]);
-
-protected:
     int Bordo_c;
     int Bordo_r;
-    int Lines;
-    int Cols;
-    Stampa(int,int);
 
 public:
-    void StampaTabelloneGioco(char [][constant::C]);
+    void CalcolaBordo();
+    void StampaBordo();
+    void StampaTabellonePlayer(int,int,char (&)[][tavolo::C]);
     void Inizio();
     void HaiVinto();
     void HaiPerso();
     void Pausa();
+    void ErroreDimensioniSchermo();
+    void ChiederePosizioneNave();
+    void ChiederePosizioneDaAttaccare(int,int, const char*);
     Stampa();
 
-};
-
-class BordoSchermo: public Stampa{
-public:
-    void CalcolaBordo();
-    BordoSchermo(int,int);
 };

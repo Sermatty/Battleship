@@ -4,7 +4,7 @@ SRCDIR = src
 INDIR = include
 LIBDIR = lib/windows
 
-SOURCES = $(SRCDIR)/main.cpp  $(INDIR)/Const.cpp $(INDIR)/Gioco.cpp $(INDIR)/Giocatori.cpp $(INDIR)/Stampa.cpp
+SOURCES = $(SRCDIR)/main.cpp  $(INDIR)/Const.cpp $(INDIR)/Gioco.cpp $(INDIR)/Player.cpp $(INDIR)/Stampa.cpp
 
 
 all:

@@ -73,5 +73,13 @@ namespace schermata{
         "    Premere q per uscire...           ",
         NULL
     };
+
+    const char *POSX={
+        "X: "
+    };
+
+    const char *POSY={
+        "Y: "
+    };
   
 }
